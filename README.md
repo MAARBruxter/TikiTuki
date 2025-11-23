@@ -6,17 +6,17 @@
 ![CLA Required](https://img.shields.io/badge/CLA-Required-blue.svg)
 ![Itch.io](https://img.shields.io/badge/Play-Itch.io-red?logo=itch.io)
 
-## Contexto / Propósito
+## Context / Purpose
 
 Este videojuego es una práctica de clase del curso **GECEGS en Desarrollo de Videojuegos y Realidad Virtual** en el centro **CPIFP Alan Turing (Campanillas, Málaga)**.  
 El objetivo principal es aplicar conceptos de desarrollo en Unity 2D, incluyendo mecánicas de plataformas, gestión de PowerUps, enemigos y recolección de objetos.
 
-## Historia
+## Story
 
 **Hongui**, una pequeña seta curiosa, deja su hogar seguro para explorar el Bosque Brillante y recolectar diamantes mágicos.  
 En su camino deberá esquivar águilas, ranas y caracoles mientras demuestra que, aunque seas pequeño, la valentía puede llevarte a grandes aventuras.
 
-## Mecánicas
+## Mechanics
 
 - **Sistema de daño**: Los enemigos causan daño al estilo clásico de plataformas 2D tipo Mario Bros.
 - **Saltos**: Doble salto desde el suelo y salto único si se inicia desde el aire.
@@ -26,7 +26,7 @@ En su camino deberá esquivar águilas, ranas y caracoles mientras demuestra que
 - **Recolección de diamantes**: Recoger gemas incrementa la puntuación.
 - **Enemigos**: Encontrarás en el camino águilas voladoras, ranas y caracoles.
 
-## Código fuente
+## Source Code
 
 El proyecto está desarrollado en **Unity 6** con C#. Entre los scripts podemos ver:
 
@@ -45,42 +45,42 @@ El proyecto está desarrollado en **Unity 6** con C#. Entre los scripts podemos 
 
 Los scripts incluyen documentación interna y métodos de debug.
 
-## Sistema de puntuación
+## Scoring System
 
 - Cada diamante recolectado incrementa la puntuación del jugador. Al llegar a 10 diamantes avanzamos de nivel. 
 - Los PowerUps no incrementan la puntuación directamente, pero ayudan a sobrevivir.  
 
-## Créditos
+## Credits
 
-**Desarrollo**  
+**Development**  
 Alberto Fernández Hidalgo  
 
 **Tilesets**  
 - Forest Lite Pixel Art Tileset  
 
-**Personajes / Sprites**  
+**Characters / Sprites**  
 - Player Principal: Cute Mushroom Character Sprite  
 - Enemigo Hombre-Rana: Isometric Frog Character  
 - Enemigo Caracol: Snail Character 2.0  
 - Gatos: CatPackFree  
 - Águilas: 2DBirds Eagle  
 
-**Animaciones**  
+**Animations**  
 - Cute Mushroom Character Sprite  
 - Isometric Frog Character  
 - Snail Character 2.0  
 - CatPackFree  
 - 2DBirds Eagle  
 
-**Efectos Visuales (VFX)**  
+**Visual Effects (VFX)**  
 - msVFX Free Smoke Effects Pack  
 - Lana Studio Hyper Casual FX  
 
-**Sonidos**  
+**Sounds**  
 - Collectables Sound Pack  
 - RPG Essentials Free (Leohpaz)  
 
-## Juega ahora
+## Play Now
 
 Prueba el juego en **Itch.io**:  
 [Super Hongobros en Itch.io](https://albertofernandezhid.itch.io/super-hongobros)

@@ -61,15 +61,8 @@ Miguel Ángel Ávila Rosas
 - [NYKNCK](https://assetstore.unity.com/publishers/38584)
 
 **Music and SFX**  
-- Main Soundtrack
-
-**Visual Effects (VFX)**  
-- msVFX Free Smoke Effects Pack  
-- Lana Studio Hyper Casual FX  
-
-**Sounds**  
-- Collectables Sound Pack  
-- RPG Essentials Free (Leohpaz)  
+- Main Soundtrack: AI
+- Apple Sound Effect: Josh Mancell
 
 ## Play Now
 

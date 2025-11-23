@@ -30,9 +30,13 @@ This project is developed in **Unity 6** with C#. This are the scripts:
 
 - **ActSelectManager**: Loads the different acts of the game, which can only be access if the player beated the level.
 - **AudioManager**: Controls the audio of the game, including the background music and SFX.
-- **EnemyManager**: Controls the movement, logic and the type of the enemy.  
-- **GameManager**: Manages the gloval logic of the game, levels and pause.  
-- **MenuPrincipal**: Controles the buttons and panels of the main menu.  
+- **EnemyController**: Controls the movement, logic and the type of the enemy.
+- **EnemySpawnerController**: Controls the spawner of enemies on the final battle with Taka.
+- **FruitController**: Controls the logic of the apples in the game, including their type.
+- **GameConstants**: Contains all the constants of the variables needed for the game to work.
+- **GameManager**: Manages the gloval logic of the game, levels and pause.
+- **GoalController**: When you win the level shows a panel to go to other levels, or the menu. 
+- **MenuManager**: Controles the buttons and panels of the main menu.  
 - **UIManager** *(desactivado)*: Gestionaría la activación de elementos gráficos en pantalla como HUD y mensajes.  
 - **MobileControlsManager**: Detecta si el dispositivo es móvil y gestiona los controles táctiles.  
 - **SimpleJoystick**: Joystick virtual 2D que detecta arrastre táctil para generar un vector de movimiento.  

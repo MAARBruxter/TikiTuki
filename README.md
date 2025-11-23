@@ -43,34 +43,25 @@ This project is developed in **Unity 6** with C#. This are the scripts:
 - **PlayerMovementNewInputSystem**: Controls the movement of the player and the attack mechanic.
 - **SettingsMenu**: Controls the settings in the settings menu.
 
-Los scripts incluyen documentación interna y métodos de debug.
+All the scripts contain internal documentation for further understanding.
 
 ## Scoring System
 
-- Cada diamante recolectado incrementa la puntuación del jugador. Al llegar a 10 diamantes avanzamos de nivel. 
-- Los PowerUps no incrementan la puntuación directamente, pero ayudan a sobrevivir.  
+- Each Apples gives 500 points to the player.
+- Each second in the timer gives 100 points to the player.  
 
 ## Credits
 
-**Development**  
-Alberto Fernández Hidalgo  
+**Programming and Art**  
+Miguel Ángel Ávila Rosas
 
-**Tilesets**  
-- Forest Lite Pixel Art Tileset  
+**Resources**  
+- [Pixelfrogsstudio](https://assetstore.unity.com/publishers/44925)
+- [Karsiori](https://assetstore.unity.com/publishers/90197)
+- [NYKNCK](https://assetstore.unity.com/publishers/38584)
 
-**Characters / Sprites**  
-- Player Principal: Cute Mushroom Character Sprite  
-- Enemigo Hombre-Rana: Isometric Frog Character  
-- Enemigo Caracol: Snail Character 2.0  
-- Gatos: CatPackFree  
-- Águilas: 2DBirds Eagle  
-
-**Animations**  
-- Cute Mushroom Character Sprite  
-- Isometric Frog Character  
-- Snail Character 2.0  
-- CatPackFree  
-- 2DBirds Eagle  
+**Music and SFX**  
+- Main Soundtrack
 
 **Visual Effects (VFX)**  
 - msVFX Free Smoke Effects Pack  

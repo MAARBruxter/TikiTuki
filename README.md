@@ -35,17 +35,13 @@ This project is developed in **Unity 6** with C#. This are the scripts:
 - **FruitController**: Controls the logic of the apples in the game, including their type.
 - **GameConstants**: Contains all the constants of the variables needed for the game to work.
 - **GameManager**: Manages the gloval logic of the game, levels and pause.
-- **GoalController**: When you win the level shows a panel to go to other levels, or the menu. 
-- **MenuManager**: Controles the buttons and panels of the main menu.  
-- **UIManager** *(desactivado)*: Gestionaría la activación de elementos gráficos en pantalla como HUD y mensajes.  
-- **MobileControlsManager**: Detecta si el dispositivo es móvil y gestiona los controles táctiles.  
-- **SimpleJoystick**: Joystick virtual 2D que detecta arrastre táctil para generar un vector de movimiento.  
-
-- **PlayerCollect**: Gestiona la recolección de gemas y notifica al GameManager.  
-- **PlayerController**: Controla el movimiento del jugador, saltos y animaciones.  
-- **PlayerHealth**: Gestiona la salud del jugador y efectos de PowerUps.  
-- **Gem**: Controla el comportamiento de las gemas y efectos visuales al recolectarlas.  
-- **PowerUp**: Gestiona los PowerUps (Vida e Invencibilidad) y sus efectos sobre el jugador.
+- **GoalController**: When you win the level shows a panel to go to other levels, or the menu.
+- **HUDController**: Controls the HUD of the game on the acts of the game.
+- **LevelManager**: Controls the functions to access the different levels of the game.
+- **MenuManager**: Controles the buttons and panels of the main menu.
+- **ParallaxEffect**: Creates the parallax effect on the levels.
+- **PlayerMovementNewInputSystem**: Controls the movement of the player and the attack mechanic.
+- **SettingsMenu**: Controls the settings in the settings menu.
 
 Los scripts incluyen documentación interna y métodos de debug.
 

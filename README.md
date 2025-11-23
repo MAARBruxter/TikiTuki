@@ -8,35 +8,35 @@
 
 ## Context / Purpose
 
-Este videojuego es una práctica de clase del curso **GECEGS en Desarrollo de Videojuegos y Realidad Virtual** en el centro **CPIFP Alan Turing (Campanillas, Málaga)**.  
-El objetivo principal es aplicar conceptos de desarrollo en Unity 2D, incluyendo mecánicas de plataformas, gestión de PowerUps, enemigos y recolección de objetos.
+This videogame is a classroom project for the GECEGS **Course in Video Game and Virtual Reality Development** at **CPIFP Alan Turing (Campanillas, Málaga)**.
+Its main objective is to apply Unity 2D development concepts, including platforming mechanics, enemies, and item collection.
 
 ## Story
 
-**Hongui**, una pequeña seta curiosa, deja su hogar seguro para explorar el Bosque Brillante y recolectar diamantes mágicos.  
-En su camino deberá esquivar águilas, ranas y caracoles mientras demuestra que, aunque seas pequeño, la valentía puede llevarte a grandes aventuras.
+**Tuki** and **Taka**, the Tiki brothers, have lived in their native forest for millennia, but they've never really gotten along. Recently, Taka decided to play a trick on Tuki and stole all his apples to eat them all by himself... how mean! He even possessed the other forest animals, ordering them to attack Tuki if he dares disturb his snack!
+
+**Run like the wind and help Tuki get his food back!**
 
 ## Mechanics
 
-- **Sistema de daño**: Los enemigos causan daño al estilo clásico de plataformas 2D tipo Mario Bros.
-- **Saltos**: Doble salto desde el suelo y salto único si se inicia desde el aire.
-- **PowerUps**:
-  - Vida extra
-  - Invencibilidad temporal
-- **Recolección de diamantes**: Recoger gemas incrementa la puntuación.
-- **Enemigos**: Encontrarás en el camino águilas voladoras, ranas y caracoles.
+- **Momentum**: The more the player moves on one direction, the more fast it will go.
+- **Apples Collectable**: If you are hit by an enemy, you'll lose all your apples. If the enemys hits the player with no apples, it's game over.
+- **Spin Attack**: If the player is running and presses down, it will be capable to defeat the enemies.
+- **Enemies**: Pigs, Bees and Bunnies, all of them move differently and will attack the player on their own way.
 
 ## Source Code
 
-El proyecto está desarrollado en **Unity 6** con C#. Entre los scripts podemos ver:
+This project is developed in **Unity 6** with C#. This are the scripts:
 
-- **AudioManager**: Controla gran parte de los sonidos, incluyendo interfaz, player, enemigos, gemas y efectos de PowerUps.  
-- **GameManager**: Gestiona la lógica global del juego, estados de niveles y pausa.  
-- **MenuPrincipal**: Controla los botones y paneles del menú principal.  
+- **ActSelectManager**: Loads the different acts of the game, which can only be access if the player beated the level.
+- **AudioManager**: Controls the audio of the game, including the background music and SFX.
+- **EnemyManager**: Controls the movement, logic and the type of the enemy.  
+- **GameManager**: Manages the gloval logic of the game, levels and pause.  
+- **MenuPrincipal**: Controles the buttons and panels of the main menu.  
 - **UIManager** *(desactivado)*: Gestionaría la activación de elementos gráficos en pantalla como HUD y mensajes.  
 - **MobileControlsManager**: Detecta si el dispositivo es móvil y gestiona los controles táctiles.  
 - **SimpleJoystick**: Joystick virtual 2D que detecta arrastre táctil para generar un vector de movimiento.  
-- **Enemy**: Controla el movimiento, daño, efectos y sonidos de todos los enemigos.  
+
 - **PlayerCollect**: Gestiona la recolección de gemas y notifica al GameManager.  
 - **PlayerController**: Controla el movimiento del jugador, saltos y animaciones.  
 - **PlayerHealth**: Gestiona la salud del jugador y efectos de PowerUps.  
@@ -82,5 +82,8 @@ Alberto Fernández Hidalgo
 
 ## Play Now
 
-Prueba el juego en **Itch.io**:  
-[Super Hongobros en Itch.io](https://albertofernandezhid.itch.io/super-hongobros)
+Play on **Itch.io**:  
+[Tiki Tuki on Itch.io](https://bruxter.itch.io/tiki-tuki)
+
+## Special Mentions
+Thanks to [Alberto Fernandez Idalgo](https://github.com/albertofernandezhid) for the README base of this project!

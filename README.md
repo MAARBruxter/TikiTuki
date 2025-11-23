@@ -1,4 +1,4 @@
-![image1](menuPixel.png)
+![image1](gameTitle.png)
 
 ![Unity](https://img.shields.io/badge/Engine-Unity%206-black?logo=unity)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
